@@ -1,0 +1,31 @@
+# 🎨 AI Image Generator  
+
+An **AI-powered image generator** built with the **OpenAI API**.  
+This project allows users to create custom images from text prompts through a simple interface.  
+
+---
+
+## 📜 Details  
+
+This project integrates with the **OpenAI Images API** to generate images based on user-provided prompts.  
+It can be used as a standalone tool, or integrated into other projects such as design tools, educational apps, or creative platforms.  
+
+Features:  
+- Generate high-quality images from **text prompts**.  
+- Save generated images locally.  
+- Easy-to-use interface (GUI).  
+
+---
+
+## 🚀 Why is it useful?  
+
+- Useful for **designers**, **students**, and **developers** to quickly generate images.  
+- Helps in **prototyping** and creating mockups.  
+- Great for **educational projects** that require quick visualizations.  
+
+Note: Be sure of changing the API Key to yours for the program to work.
+
+
+
+
+

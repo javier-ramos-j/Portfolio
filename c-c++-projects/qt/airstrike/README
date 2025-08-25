@@ -1,0 +1,13 @@
+# Nombre del Proyecto
+Breve descripción del proyecto.
+
+## 📜 Descripción
+Explica qué hace el proyecto y por qué es útil.
+
+## 🚀 Instalación
+Pasos para instalar y configurar el proyecto:
+
+```bash
+git clone https://github.com/usuario/repo.git
+cd repo
+npm install  # O el comando de instalación según el lenguaje
