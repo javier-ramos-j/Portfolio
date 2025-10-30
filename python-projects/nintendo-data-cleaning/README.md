@@ -17,7 +17,7 @@ This project is divided into the following folders, for better organization:
 
 1. Clone the repository:<br>
    ```
-   git clone https://github.com/your-username/big-n-processing.git
+   git clone https://github.com/javier-ramos-j/Portfolio/tree/main/python-projects/nintendo-data-cleaning
    cd big-n-processing```
 
 2. To run this project, you will need the latest Jupiter extension by running:<br>
