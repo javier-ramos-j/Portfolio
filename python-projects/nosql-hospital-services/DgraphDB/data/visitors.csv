@@ -1,0 +1,4 @@
+visitor_id,patient_id,visitor_name,arrival_time,exit_time
+V001,P001,María Pérez,2025-05-03T10:05:00Z,2025-05-03T11:00:00Z
+V002,P002,Jorge Hernández,2025-03-12T14:10:00Z,2025-03-12T14:45:00Z
+V003,P003,Luis García,2025-04-02T09:30:00Z,2025-04-02T10:00:00Z

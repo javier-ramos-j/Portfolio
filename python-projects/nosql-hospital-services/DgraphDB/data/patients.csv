@@ -1,0 +1,11 @@
+patient_id,name,last_name,genre,age,telephone,email,allergies,primary_doctor_id
+P001,Sofia,Martinez,Female,50,+52 314 123 4567,sofia.martinez@example.com,"[""Penicillin"",""Latex""]",U101
+P002,Juan,Lopez,Male,45,+52 55 1234 5678,juan.lopez@example.com,[],U100
+P003,Maria,Perez,Female,62,+52 81 5544 2211,maria.perez@example.com,"[""Aspirin""]",U101
+P004,Carlos,Ramirez,Male,38,+52 33 4455 6677,carlos.ramirez@example.com,[],U104
+P005,Laura,Gomez,Female,29,+52 442 334 2211,laura.gomez@example.com,"[""Gluten""]",U105
+P006,Diego,Fernandez,Male,55,+52 664 223 9988,diego.fernandez@example.com,[],U100
+P007,Valeria,Nunez,Female,41,+52 33 9988 1122,valeria.nunez@example.com,"[""Ibuprofen""]",U107
+P008,Ricardo,Santos,Male,36,+52 81 6677 8899,ricardo.santos@example.com,[],U109
+P009,Elena,Morales,Female,48,+52 55 7788 9900,elena.morales@example.com,"[""Seafood""]",U105
+P010,Fernando,Castillo,Male,60,+52 33 2211 3344,fernando.castillo@example.com,"[""Penicillin""]",U104

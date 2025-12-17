@@ -1,0 +1,4 @@
+patient_id,diagnosis_id
+P001,DX002
+P002,DX001
+P003,DX001

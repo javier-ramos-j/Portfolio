@@ -1,0 +1,237 @@
+2025-11-28 11:52:38,256 [INFO] root: Connecting to Cassandra Cluster
+2025-11-28 11:52:38,262 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['127.0.0.1'], lbp = None)
+2025-11-28 11:52:38,395 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 11:52:39,679 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 11:52:41,362 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-11-28 11:52:42,409 [INFO] root: Successfully connected to Cluster
+2025-11-28 11:52:42,410 [INFO] root: Creating keyspace: hospital (rf=1)
+2025-11-28 11:52:43,469 [INFO] root: Creating hospital schema...
+2025-11-28 11:52:45,560 [INFO] root: Schema creation complete.
+2025-11-28 11:52:45,560 [INFO] root: Keyspace 'hospital' ready
+2025-11-28 11:52:51,208 [WARNING] cassandra.protocol: Server warning: `USE <keyspace>` with prepared statements is considered to be an anti-pattern due to ambiguity in non-qualified table names. Please consider removing instances of `Session#setKeyspace(<keyspace>)`, `Session#execute("USE <keyspace>")` and `cluster.newSession(<keyspace>)` from your code, and always use fully qualified table names (e.g. <keyspace>.<table>). Keyspace used: hospital, statement keyspace: hospital, statement id: 4700513e8ba667162996eefc60dbf70b
+2025-11-28 11:52:51,269 [INFO] root: Generating sample patients...
+2025-11-28 11:52:51,354 [INFO] root: Generating sample devices...
+2025-11-28 11:52:51,372 [INFO] root: Assigning devices to patients...
+2025-11-28 11:52:51,392 [INFO] root: Generating vital signs...
+2025-11-28 11:52:51,465 [INFO] root: Generating visitors...
+2025-11-28 11:52:51,505 [INFO] root: Bulk insert completed.
+2025-11-28 11:52:51,506 [INFO] root: Sample data populated
+2025-11-28 11:53:16,467 [INFO] root: Retrieving vitals for a95ebb6e-cab6-4da8-b920-ff72d5e0a70c
+2025-11-28 11:54:05,789 [INFO] root: Retrieving vitals for 7e3623b1-4afd-4e56-b236-5481ddae86ce between 2025-01-01 and 2025-12-02
+2025-11-28 11:54:18,033 [INFO] root: Retrieving visitors for 67bf67c2-13fa-401c-b295-f38c368e2423
+2025-11-28 11:54:51,150 [INFO] root: Retrieving devices for c38f2ffc-b602-416d-a4cd-2737c37daaaa
+2025-11-28 11:55:04,626 [INFO] root: Retrieving devices for ddf0f4a3-dd41-4adc-9dcf-3114678d4cbc
+2025-11-28 11:55:11,932 [INFO] root: Retrieving devices for dcde8960-cdec-4582-aea7-493a5642645f
+2025-11-28 11:55:16,812 [INFO] root: Retrieving devices for 7afea90c-506a-4aea-946b-7d6156e8a8fb
+2025-11-28 11:55:34,365 [INFO] root: Application terminated by user
+2025-11-28 11:55:34,365 [INFO] root: Cassandra connection closed
+2025-11-28 11:56:31,402 [INFO] root: Connecting to Cassandra Cluster
+2025-11-28 11:56:31,402 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['127.0.0.1'], lbp = None)
+2025-11-28 11:56:31,454 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 11:56:32,936 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 11:56:34,397 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-11-28 11:56:35,686 [INFO] root: Successfully connected to Cluster
+2025-11-28 11:56:35,687 [INFO] root: Creating keyspace: hospital (rf=1)
+2025-11-28 11:56:35,727 [INFO] root: Creating hospital schema...
+2025-11-28 11:56:35,828 [INFO] root: Schema creation complete.
+2025-11-28 11:56:35,829 [INFO] root: Keyspace 'hospital' ready
+2025-11-28 11:56:45,166 [INFO] root: Generating sample patients...
+2025-11-28 11:56:45,192 [INFO] root: Generating sample devices...
+2025-11-28 11:56:45,218 [INFO] root: Assigning devices to patients...
+2025-11-28 11:56:45,237 [INFO] root: Generating vital signs...
+2025-11-28 11:56:45,299 [INFO] root: Generating visitors...
+2025-11-28 11:56:45,332 [INFO] root: Bulk insert completed.
+2025-11-28 11:56:45,334 [INFO] root: Sample data populated
+2025-11-28 11:59:39,966 [INFO] root: Retrieving vitals for 34284869-d616-4d5f-9d18-ca3a4c4802cd between  and 
+2025-11-28 11:59:56,791 [INFO] root: Retrieving visitors for bac542c7-145e-4323-b4d7-9ca1cb6eb0ae
+2025-11-28 12:00:06,858 [INFO] root: Retrieving visitors for 09ccbe6c-cf04-4044-8ac4-d95f78d0ab75
+2025-11-28 12:00:17,474 [INFO] root: Retrieving visitors for 9b644b20-1d2a-4598-bd04-7a15be094d07
+2025-11-28 12:00:21,511 [INFO] root: Application terminated by user
+2025-11-28 12:00:21,512 [INFO] root: Cassandra connection closed
+2025-11-28 12:08:24,200 [INFO] root: Connecting to Cassandra Cluster
+2025-11-28 12:08:24,206 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['127.0.0.1'], lbp = None)
+2025-11-28 12:08:24,240 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 12:08:25,683 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 12:08:27,245 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-11-28 12:08:28,539 [INFO] root: Successfully connected to Cluster
+2025-11-28 12:08:28,541 [INFO] root: Creating keyspace: hospital (rf=1)
+2025-11-28 12:08:28,722 [INFO] root: Creating hospital schema...
+2025-11-28 12:08:29,274 [INFO] root: Schema creation complete.
+2025-11-28 12:08:29,275 [INFO] root: Keyspace 'hospital' ready
+2025-11-28 12:08:35,728 [INFO] root: Generating sample patients...
+2025-11-28 12:08:35,774 [INFO] root: Generating sample devices...
+2025-11-28 12:08:35,817 [INFO] root: Assigning devices to patients...
+2025-11-28 12:08:35,842 [INFO] root: Generating vital signs...
+2025-11-28 12:08:35,925 [INFO] root: Generating visitors...
+2025-11-28 12:08:35,970 [INFO] root: Bulk insert completed.
+2025-11-28 12:08:35,972 [INFO] root: Sample data populated
+2025-11-28 12:08:46,014 [INFO] root: Retrieving vitals for 7bcdf6a7-9b27-4f0c-96b0-f03ac2b8266b
+2025-11-28 12:09:03,343 [INFO] root: Retrieving vitals for 7bcdf6a7-9b27-4f0c-96b0-f03ac2b8266b between  and 
+2025-11-28 12:09:10,651 [INFO] root: Application terminated by user
+2025-11-28 12:09:10,651 [INFO] root: Cassandra connection closed
+2025-11-28 18:08:44,948 [INFO] root: Connecting to Cassandra Cluster
+2025-11-28 18:08:44,959 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['127.0.0.1'], lbp = None)
+2025-11-28 18:08:45,058 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 18:08:46,451 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 18:08:48,145 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-11-28 18:08:49,195 [INFO] root: Successfully connected to Cluster
+2025-11-28 18:08:49,195 [INFO] root: Creating keyspace: hospital (rf=1)
+2025-11-28 18:08:49,276 [INFO] root: Creating hospital schema...
+2025-11-28 18:08:49,371 [INFO] root: Schema creation complete.
+2025-11-28 18:08:49,372 [INFO] root: Keyspace 'hospital' ready
+2025-11-28 18:08:56,291 [INFO] root: Loading data from CSV files...
+2025-11-28 18:08:56,302 [ERROR] root: Error loading patients from CSV: badly formed hexadecimal UUID string
+2025-11-28 18:08:56,302 [INFO] root: Loaded 30 vital signs from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\vital_signs_by_patient.csv
+2025-11-28 18:08:56,306 [INFO] root: Loaded 20 visitors from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\visitors_by_patient.csv
+2025-11-28 18:08:56,306 [INFO] root: Loaded 5 devices from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device.csv
+2025-11-28 18:08:56,311 [INFO] root: Loaded 10 device assignments from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device_by_patient.csv
+2025-11-28 18:08:56,386 [INFO] root: Inserting 0 patients...
+2025-11-28 18:08:56,387 [INFO] root: Inserting 5 devices...
+2025-11-28 18:08:56,448 [INFO] root: Inserting 30 vital signs...
+2025-11-28 18:08:56,478 [INFO] root: Inserting 20 visitors...
+2025-11-28 18:08:56,496 [INFO] root: Inserting 10 device assignments...
+2025-11-28 18:08:56,514 [INFO] root: Bulk insert from CSV completed.
+2025-11-28 18:08:56,515 [INFO] root: Data loaded from CSV files
+2025-11-28 18:09:08,268 [INFO] root: Loading data from CSV files...
+2025-11-28 18:09:08,268 [ERROR] root: Error loading patients from CSV: badly formed hexadecimal UUID string
+2025-11-28 18:09:08,268 [INFO] root: Loaded 30 vital signs from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\vital_signs_by_patient.csv
+2025-11-28 18:09:08,268 [INFO] root: Loaded 20 visitors from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\visitors_by_patient.csv
+2025-11-28 18:09:08,268 [INFO] root: Loaded 5 devices from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device.csv
+2025-11-28 18:09:08,275 [INFO] root: Loaded 10 device assignments from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device_by_patient.csv
+2025-11-28 18:09:08,337 [INFO] root: Inserting 0 patients...
+2025-11-28 18:09:08,338 [INFO] root: Inserting 5 devices...
+2025-11-28 18:09:08,360 [INFO] root: Inserting 30 vital signs...
+2025-11-28 18:09:08,390 [INFO] root: Inserting 20 visitors...
+2025-11-28 18:09:08,406 [INFO] root: Inserting 10 device assignments...
+2025-11-28 18:09:08,427 [INFO] root: Bulk insert from CSV completed.
+2025-11-28 18:09:08,427 [INFO] root: Data loaded from CSV files
+2025-11-28 18:09:49,207 [INFO] root: Loading data from CSV files...
+2025-11-28 18:09:49,208 [ERROR] root: Error loading patients from CSV: badly formed hexadecimal UUID string
+2025-11-28 18:09:49,208 [INFO] root: Loaded 30 vital signs from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\vital_signs_by_patient.csv
+2025-11-28 18:09:49,211 [INFO] root: Loaded 20 visitors from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\visitors_by_patient.csv
+2025-11-28 18:09:49,211 [INFO] root: Loaded 5 devices from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device.csv
+2025-11-28 18:09:49,212 [INFO] root: Loaded 10 device assignments from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device_by_patient.csv
+2025-11-28 18:09:49,282 [INFO] root: Inserting 0 patients...
+2025-11-28 18:09:49,282 [INFO] root: Inserting 5 devices...
+2025-11-28 18:09:49,305 [INFO] root: Inserting 30 vital signs...
+2025-11-28 18:09:49,344 [INFO] root: Inserting 20 visitors...
+2025-11-28 18:09:49,374 [INFO] root: Inserting 10 device assignments...
+2025-11-28 18:09:49,396 [INFO] root: Bulk insert from CSV completed.
+2025-11-28 18:09:49,397 [INFO] root: Data loaded from CSV files
+2025-11-28 18:09:52,082 [INFO] root: Application terminated by user
+2025-11-28 18:09:52,082 [INFO] root: Cassandra connection closed
+2025-11-28 18:10:54,559 [INFO] root: Connecting to Cassandra Cluster
+2025-11-28 18:10:54,566 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['127.0.0.1'], lbp = None)
+2025-11-28 18:10:54,630 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 18:10:56,010 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-28 18:10:57,539 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-11-28 18:10:58,603 [INFO] root: Successfully connected to Cluster
+2025-11-28 18:10:58,605 [INFO] root: Creating keyspace: hospital (rf=1)
+2025-11-28 18:10:58,651 [INFO] root: Creating hospital schema...
+2025-11-28 18:10:58,720 [INFO] root: Schema creation complete.
+2025-11-28 18:10:58,721 [INFO] root: Keyspace 'hospital' ready
+2025-11-28 18:11:03,399 [INFO] root: Loading data from CSV files...
+2025-11-28 18:11:03,399 [INFO] root: Loaded 10 patients from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\patient.csv
+2025-11-28 18:11:03,399 [INFO] root: Loaded 30 vital signs from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\vital_signs_by_patient.csv
+2025-11-28 18:11:03,399 [INFO] root: Loaded 20 visitors from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\visitors_by_patient.csv
+2025-11-28 18:11:03,408 [INFO] root: Loaded 5 devices from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device.csv
+2025-11-28 18:11:03,408 [INFO] root: Loaded 10 device assignments from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device_by_patient.csv
+2025-11-28 18:11:03,469 [INFO] root: Inserting 10 patients...
+2025-11-28 18:11:03,492 [INFO] root: Inserting 5 devices...
+2025-11-28 18:11:03,507 [INFO] root: Inserting 30 vital signs...
+2025-11-28 18:11:03,551 [INFO] root: Inserting 20 visitors...
+2025-11-28 18:11:03,568 [INFO] root: Inserting 10 device assignments...
+2025-11-28 18:11:03,578 [INFO] root: Bulk insert from CSV completed.
+2025-11-28 18:11:03,578 [INFO] root: Data loaded from CSV files
+2025-11-28 18:11:19,975 [INFO] root: Retrieving vitals for 4c6c1cc2-a7ad-5710-b4e6-9131daba0a0b
+2025-11-28 18:11:32,151 [INFO] root: Retrieving vitals for 38c88bb2-20eb-525c-957d-d3804fdc6a24 between  and 
+2025-11-28 18:11:39,201 [INFO] root: Retrieving visitors for 6f497d3e-f2e9-51a2-b0c2-ba772560f10a
+2025-11-28 18:11:48,950 [INFO] root: Retrieving devices for 1b439826-c698-5aff-bdf7-2d890641467d
+2025-11-28 18:12:05,568 [INFO] root: Application terminated by user
+2025-11-28 18:12:05,569 [INFO] root: Cassandra connection closed
+2025-11-29 16:58:42,247 [INFO] root: Connecting to Cassandra Cluster
+2025-11-29 16:58:42,263 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['127.0.0.1'], lbp = None)
+2025-11-29 16:58:42,443 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-29 16:58:43,685 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-29 16:58:45,333 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-11-29 16:58:46,414 [INFO] root: Successfully connected to Cluster
+2025-11-29 16:58:46,415 [INFO] root: Creating keyspace: hospital (rf=1)
+2025-11-29 16:58:46,466 [INFO] root: Creating hospital schema...
+2025-11-29 16:58:46,554 [INFO] root: Schema creation complete.
+2025-11-29 16:58:46,555 [INFO] root: Keyspace 'hospital' ready
+2025-11-29 16:58:51,984 [INFO] root: Loading data from CSV files...
+2025-11-29 16:58:51,986 [INFO] root: Loaded 10 patients from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\patient.csv
+2025-11-29 16:58:51,988 [INFO] root: Loaded 30 vital signs from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\vital_signs_by_patient.csv
+2025-11-29 16:58:51,988 [INFO] root: Loaded 20 visitors from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\visitors_by_patient.csv
+2025-11-29 16:58:51,991 [INFO] root: Loaded 5 devices from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device.csv
+2025-11-29 16:58:51,992 [INFO] root: Loaded 10 device assignments from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device_by_patient.csv
+2025-11-29 16:58:52,068 [INFO] root: Inserting 10 patients...
+2025-11-29 16:58:52,135 [INFO] root: Inserting 5 devices...
+2025-11-29 16:58:52,151 [INFO] root: Inserting 30 vital signs...
+2025-11-29 16:58:52,203 [INFO] root: Inserting 20 visitors...
+2025-11-29 16:58:52,219 [INFO] root: Inserting 10 device assignments...
+2025-11-29 16:58:52,236 [INFO] root: Bulk insert from CSV completed.
+2025-11-29 16:58:52,237 [INFO] root: Data loaded from CSV files
+2025-11-29 16:59:02,070 [INFO] root: Retrieving vitals for 1b439826-c698-5aff-bdf7-2d890641467d
+2025-11-29 16:59:07,240 [INFO] root: Application terminated by user
+2025-11-29 16:59:07,240 [INFO] root: Cassandra connection closed
+2025-11-29 17:40:19,445 [INFO] root: Connecting to Cassandra Cluster
+2025-11-29 17:40:19,454 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['127.0.0.1'], lbp = None)
+2025-11-29 17:40:19,521 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-29 17:40:20,879 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-29 17:40:22,381 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-11-29 17:40:23,482 [INFO] root: Successfully connected to Cluster
+2025-11-29 17:40:23,483 [INFO] root: Creating keyspace: hospital (rf=1)
+2025-11-29 17:40:23,523 [INFO] root: Creating hospital schema...
+2025-11-29 17:40:23,612 [INFO] root: Schema creation complete.
+2025-11-29 17:40:23,613 [INFO] root: Keyspace 'hospital' ready
+2025-11-29 17:40:26,354 [INFO] root: Loading data from CSV files...
+2025-11-29 17:40:26,355 [INFO] root: Loaded 10 patients from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\patient.csv
+2025-11-29 17:40:26,360 [INFO] root: Loaded 30 vital signs from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\vital_signs_by_patient.csv
+2025-11-29 17:40:26,363 [INFO] root: Loaded 20 visitors from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\visitors_by_patient.csv
+2025-11-29 17:40:26,363 [INFO] root: Loaded 5 devices from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device.csv
+2025-11-29 17:40:26,366 [INFO] root: Loaded 10 device assignments from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device_by_patient.csv
+2025-11-29 17:40:26,436 [INFO] root: Inserting 10 patients...
+2025-11-29 17:40:26,468 [INFO] root: Inserting 5 devices...
+2025-11-29 17:40:26,480 [INFO] root: Inserting 30 vital signs...
+2025-11-29 17:40:26,505 [INFO] root: Inserting 20 visitors...
+2025-11-29 17:40:26,520 [INFO] root: Inserting 10 device assignments...
+2025-11-29 17:40:26,536 [INFO] root: Bulk insert from CSV completed.
+2025-11-29 17:40:26,537 [INFO] root: Data loaded from CSV files
+2025-11-29 17:40:34,401 [INFO] root: Retrieving vitals for df3fbca7-1240-5528-9018-4a355d1b4f02
+2025-11-29 17:41:21,557 [INFO] root: Inserting visitor Andrea Noyola for patient b473da84-cd61-50f4-a44b-71bccd7f55e6
+2025-11-29 17:41:21,631 [WARNING] cassandra.protocol: Server warning: `USE <keyspace>` with prepared statements is considered to be an anti-pattern due to ambiguity in non-qualified table names. Please consider removing instances of `Session#setKeyspace(<keyspace>)`, `Session#execute("USE <keyspace>")` and `cluster.newSession(<keyspace>)` from your code, and always use fully qualified table names (e.g. <keyspace>.<table>). Keyspace used: hospital, statement keyspace: hospital, statement id: 09899d11d10b9844612f54712400d068
+2025-11-29 17:41:21,650 [INFO] root: Successfully inserted visitor record for Andrea Noyola
+2025-11-29 17:41:21,652 [INFO] root: Nurse registered visitor: Andrea Noyola for patient b473da84-cd61-50f4-a44b-71bccd7f55e6
+2025-11-29 17:41:59,709 [INFO] root: Retrieving visitors for b473da84-cd61-50f4-a44b-71bccd7f55e6
+2025-11-29 17:42:10,325 [INFO] root: Application terminated by user
+2025-11-29 17:42:10,332 [INFO] root: Cassandra connection closed
+2025-11-29 17:42:50,773 [INFO] root: Connecting to Cassandra Cluster
+2025-11-29 17:42:50,780 [WARNING] cassandra.cluster: Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['127.0.0.1'], lbp = None)
+2025-11-29 17:42:50,827 [WARNING] cassandra.cluster: Downgrading core protocol version from 66 to 65 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-29 17:42:52,313 [WARNING] cassandra.cluster: Downgrading core protocol version from 65 to 5 for 127.0.0.1:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-11-29 17:42:53,794 [INFO] cassandra.policies: Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '127.0.0.1:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-11-29 17:42:55,103 [INFO] root: Successfully connected to Cluster
+2025-11-29 17:42:55,104 [INFO] root: Creating keyspace: hospital (rf=1)
+2025-11-29 17:42:55,168 [INFO] root: Creating hospital schema...
+2025-11-29 17:42:55,244 [INFO] root: Schema creation complete.
+2025-11-29 17:42:55,245 [INFO] root: Keyspace 'hospital' ready
+2025-11-29 17:42:58,746 [INFO] root: Loading data from CSV files...
+2025-11-29 17:42:58,746 [INFO] root: Loaded 10 patients from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\patient.csv
+2025-11-29 17:42:58,746 [INFO] root: Loaded 30 vital signs from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\vital_signs_by_patient.csv
+2025-11-29 17:42:58,746 [INFO] root: Loaded 20 visitors from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\visitors_by_patient.csv
+2025-11-29 17:42:58,746 [INFO] root: Loaded 5 devices from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device.csv
+2025-11-29 17:42:58,757 [INFO] root: Loaded 10 device assignments from C:\Users\fjrj2\OneDrive\Documentos\Git-Clases\NoSQL-Proyecto\Proyecto_NoSQL\cassandra-db\data_cas\device_by_patient.csv
+2025-11-29 17:42:58,842 [INFO] root: Inserting 10 patients...
+2025-11-29 17:42:58,867 [INFO] root: Inserting 5 devices...
+2025-11-29 17:42:58,891 [INFO] root: Inserting 30 vital signs...
+2025-11-29 17:42:58,931 [INFO] root: Inserting 20 visitors...
+2025-11-29 17:42:58,946 [INFO] root: Inserting 10 device assignments...
+2025-11-29 17:42:58,961 [INFO] root: Bulk insert from CSV completed.
+2025-11-29 17:42:58,962 [INFO] root: Data loaded from CSV files
+2025-11-29 17:43:06,576 [INFO] root: Retrieving vitals for 9ed4f3d6-cc41-5c04-b5fc-e77bd7d3be1e
+2025-11-29 17:43:13,918 [INFO] root: Retrieving vitals for 9ed4f3d6-cc41-5c04-b5fc-e77bd7d3be1e between  and 
+2025-11-29 17:43:18,833 [INFO] root: Retrieving visitors for 9ed4f3d6-cc41-5c04-b5fc-e77bd7d3be1e
+2025-11-29 17:43:26,006 [INFO] root: Retrieving devices for 9ed4f3d6-cc41-5c04-b5fc-e77bd7d3be1e
+2025-11-29 17:43:40,795 [INFO] root: Application terminated by user
+2025-11-29 17:43:40,795 [INFO] root: Cassandra connection closed

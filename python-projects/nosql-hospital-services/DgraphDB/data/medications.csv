@@ -1,0 +1,4 @@
+medication_id,trade_name,dosage,frequency
+M001,Metformin,500mg,BID
+M010,Lisinopril,20mg,QD 
+M020,Amlodipine,10mg,QD

@@ -1,0 +1,11 @@
+user_id,name,role,specialty,email,password_hash,active,created_at
+U100,Dr. Ana Torres,Doctor,Cardiology,ana.torres@clinic.mx,hash1,True,2025-01-10T09:00:00Z
+U101,Dr. Marco Rivera,Doctor,Endocrinology,marco.rivera@clinic.mx,hash2,True,2025-01-12T11:30:00Z
+U102,Nurse Lucia Herrera,Nurse,General Care,lucia.herrera@clinic.mx,hash3,True,2025-01-15T08:15:00Z
+U103,Admin Jorge Perez,Admin,Systems,jorge.perez@clinic.mx,hash4,True,2025-01-20T10:00:00Z
+U104,Dr. Carlos Mendez,Doctor,Neurology,carlos.mendez@clinic.mx,hash5,True,2025-02-01T09:00:00Z
+U105,Dr. Elena Ruiz,Doctor,Pediatrics,elena.ruiz@clinic.mx,hash6,True,2025-02-03T10:20:00Z
+U106,Nurse Karen Soto,Nurse,General Care,karen.soto@clinic.mx,hash7,True,2025-02-04T13:15:00Z
+U107,Dr. Luis Dominguez,Doctor,Oncology,luis.dominguez@clinic.mx,hash8,True,2025-02-07T09:30:00Z
+U108,Admin Sofia Navarro,Admin,Finance,sofia.navarro@clinic.mx,hash9,True,2025-02-10T14:00:00Z
+U109,Dr. Pablo Ortega,Doctor,Cardiology,pablo.ortega@clinic.mx,hash10,True,2025-02-15T11:45:00Z

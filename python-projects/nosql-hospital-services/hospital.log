@@ -1,0 +1,66 @@
+2025-12-02 08:25:55,791 [INFO] __main__: System Hospital initialized
+2025-12-02 08:26:17,092 [INFO] __main__: Starting MongoDB API server (Falcon)
+2025-12-02 08:27:43,559 [INFO] __main__: Populate.py executed successfully
+2025-12-02 08:28:34,035 [INFO] __main__: System close by user
+2025-12-02 08:28:34,036 [INFO] __main__: System ended
+2025-12-02 08:28:55,924 [INFO] __main__: System Hospital initialized
+2025-12-02 08:29:00,257 [INFO] __main__: Initializing Dgraph
+2025-12-02 08:29:33,473 [INFO] __main__: Initializing Chromadb
+2025-12-02 08:31:16,407 [INFO] __main__: System close by user
+2025-12-02 08:31:16,408 [INFO] __main__: System ended
+2025-12-02 08:38:15,080 [INFO] __main__: System Hospital initialized
+2025-12-02 08:39:03,869 [INFO] __main__: Starting MongoDB API server (Falcon)
+2025-12-02 08:40:29,223 [INFO] __main__: Populate executed successfully
+2025-12-02 08:42:42,733 [INFO] __main__: System close by user
+2025-12-02 08:42:42,733 [INFO] __main__: System ended
+2025-12-02 08:44:33,224 [INFO] __main__: System Hospital initialized
+2025-12-02 08:44:35,326 [INFO] __main__: Starting MongoDB API server (Falcon)
+2025-12-02 08:44:43,699 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U100
+2025-12-02 08:44:43,763 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U100
+2025-12-02 08:44:45,769 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U101
+2025-12-02 08:44:45,771 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U101
+2025-12-02 08:44:47,778 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U102
+2025-12-02 08:44:47,783 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U102
+2025-12-02 08:44:49,790 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U103
+2025-12-02 08:44:49,793 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U103
+2025-12-02 08:44:51,802 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U104
+2025-12-02 08:44:51,806 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U104
+2025-12-02 08:44:53,815 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U105
+2025-12-02 08:44:53,818 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U105
+2025-12-02 08:44:55,825 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U106
+2025-12-02 08:44:55,828 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U106
+2025-12-02 08:44:57,836 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U107
+2025-12-02 08:44:57,838 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U107
+2025-12-02 08:44:59,846 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U108
+2025-12-02 08:44:59,849 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U108
+2025-12-02 08:45:01,857 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users/U109
+2025-12-02 08:45:01,863 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users/U109
+2025-12-02 08:45:03,872 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P001
+2025-12-02 08:45:03,890 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P001
+2025-12-02 08:45:05,897 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P002
+2025-12-02 08:45:05,900 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P002
+2025-12-02 08:45:07,906 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P003
+2025-12-02 08:45:07,910 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P003
+2025-12-02 08:45:09,916 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P004
+2025-12-02 08:45:09,919 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P004
+2025-12-02 08:45:11,926 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P005
+2025-12-02 08:45:11,932 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P005
+2025-12-02 08:45:13,941 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P006
+2025-12-02 08:45:13,946 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P006
+2025-12-02 08:45:15,954 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P007
+2025-12-02 08:45:15,958 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P007
+2025-12-02 08:45:17,965 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P008
+2025-12-02 08:45:17,970 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P008
+2025-12-02 08:45:19,977 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P009
+2025-12-02 08:45:19,979 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P009
+2025-12-02 08:45:21,986 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/P010
+2025-12-02 08:45:21,989 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/P010
+2025-12-02 08:45:22,025 [INFO] __main__: Populate executed successfully
+2025-12-02 08:45:48,241 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/users
+2025-12-02 08:45:48,244 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/users
+2025-12-02 08:46:03,886 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients
+2025-12-02 08:46:03,898 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients
+2025-12-02 08:46:18,192 [INFO] Mongo_db.main_mongo: [REQUEST] GET http://localhost:8003/patients/diagnosis-count
+2025-12-02 08:46:18,250 [INFO] Mongo_db.main_mongo: [RESPONSE] 200 OK GET http://localhost:8003/patients/diagnosis-count
+2025-12-02 08:47:03,973 [INFO] __main__: System close by user
+2025-12-02 08:47:03,974 [INFO] __main__: System ended

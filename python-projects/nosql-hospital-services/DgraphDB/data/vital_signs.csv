@@ -1,0 +1,4 @@
+reading_id,patient_id,type,value,unit,timestamp
+VS001,P001,Glucose,95,mg/dL,2025-04-29T00:00:00Z
+VS002,P002,Blood Pressure,150,mmHg,2025-03-10T00:00:00Z
+VS003,P003,Blood Pressure,160,mmHg,2025-04-02T00:00:00Z

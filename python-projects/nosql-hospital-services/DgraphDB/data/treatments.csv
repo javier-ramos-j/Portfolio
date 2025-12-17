@@ -1,0 +1,4 @@
+treatment_id,treatment_name,start_date,end_date,diagnosis_id,medication_id
+T001,Diabetes management with Metformin,2024-01-10T10:00:00Z,2024-07-10T10:00:00Z,DX002,M001
+T002,Hypertension control with Lisinopril,2024-02-01T09:30:00Z,2024-08-01T09:30:00Z,DX001,M010
+T003,Hypertension control with Amlodipine,2024-03-05T11:15:00Z,2024-09-05T11:15:00Z,DX001,M020

@@ -1,0 +1,17 @@
+#Mongo
+falcon
+pymongo
+uvicorn
+requests
+
+#Chroma
+chromadb
+transformers
+sentence-transformers
+
+#Cassandra
+cassandra-driver
+time_uuid
+
+#Dgraph
+pydgraph

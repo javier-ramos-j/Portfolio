@@ -1,0 +1,6 @@
+device_id,model,type,status
+4ef49668-2b18-4980-926c-6ac152ff6327,OXI-500,BloodPressure,retired
+8f317fe8-bfff-400e-b3f0-4d2689115c75,ECG-200,Thermometer,maintenance
+a19612a0-662a-4957-affa-1724f102bee5,ECG-200,Thermometer,active
+cf86caf5-67fa-48f2-a862-5bfd656b52a3,BP-900,BloodPressure,maintenance
+275e03c2-a93b-4638-bdc1-cea80dc5b9df,TEMP-77,BloodPressure,retired

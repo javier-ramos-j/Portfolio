@@ -1,0 +1,3 @@
+diagnosis_id,disease_name,icd10_code
+DX001,Hypertension,I10
+DX002,Type 3 Diabetes,E11

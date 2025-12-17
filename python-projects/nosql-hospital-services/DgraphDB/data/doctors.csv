@@ -1,0 +1,7 @@
+doctor_id,name,last_name,specialty,email,license_id
+U100,Ana,Torres,Cardiology,ana.torres@clinic.mx,DOC-100
+U101,Marco,Rivera,Endocrinology,marco.rivera@clinic.mx,DOC-101
+U104,Carlos,Mendez,Neurology,carlos.mendez@clinic.mx,DOC-104
+U105,Elena,Ruiz,Pediatrics,elena.ruiz@clinic.mx,DOC-105
+U107,Luis,Dominguez,Oncology,luis.dominguez@clinic.mx,DOC-107
+U109,Pablo,Ortega,Cardiology,pablo.ortega@clinic.mx,DOC-109

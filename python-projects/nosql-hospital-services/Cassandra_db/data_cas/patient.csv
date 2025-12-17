@@ -1,0 +1,11 @@
+patient_id,name_first,last_name,phone,address
+P001,Sofia,Martinez,+52 314 123 4567,Calle 123
+P002,Juan,Lopez,+52 55 1234 5678,Av. Reforma 500
+P003,Maria,Perez,+52 81 5544 2211,Calle Hidalgo 87
+P004,Carlos,Ramirez,+52 33 4455 6677,Calle Luna 45
+P005,Laura,Gomez,+52 442 334 2211,Calle Sol 99
+P006,Daniel,Fernandez,+52 55 8888 1111,Calle Norte 12
+P007,Elena,Castro,+52 33 1122 3344,Calle Sur 21
+P008,Roberto,Hernandez,+52 81 4433 2299,Calle Azul 18
+P009,Ana,Silva,+52 55 9922 1133,Calle Verde 50
+P010,Luis,Rosas,+52 55 7766 2211,Calle Oro 77
