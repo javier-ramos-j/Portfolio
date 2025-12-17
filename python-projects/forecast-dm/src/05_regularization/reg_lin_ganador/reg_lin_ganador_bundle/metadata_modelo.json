@@ -1,0 +1,31 @@
+{
+  "modelo": "Ridge (L2)",
+  "alpha": 24.420530945486497,
+  "l1_ratio": null,
+  "r2_score": 0.7772,
+  "rmse": 51.4783,
+  "mae": 41.227,
+  "features": [
+    "PC1",
+    "PC2",
+    "PC3",
+    "PC4",
+    "PC5",
+    "Category___clothing",
+    "Category___electronics",
+    "Category___furniture",
+    "Category___groceries",
+    "Category___toys",
+    "Region___east",
+    "Region___north",
+    "Region___south",
+    "Region___west",
+    "Holiday/Promotion___0",
+    "Holiday/Promotion___1",
+    "Seasonality___autumn",
+    "Seasonality___spring",
+    "Seasonality___summer",
+    "Seasonality___winter"
+  ],
+  "saved_at": "2025-12-03 17:48:25"
+}
